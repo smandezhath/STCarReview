@@ -1,0 +1,11 @@
+Image big
+Title
+Company name
+Model
+Category
+Detailed description 
+Ratings button 
+Year of manufacturing
+Mileage
+Price
+Comments + history
