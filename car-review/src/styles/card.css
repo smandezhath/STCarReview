@@ -1,0 +1,15 @@
+.card{
+width: auto;
+    /* height: 180px; */
+    background-color: aqua;
+    border: 2px solid black;
+    
+}
+.card-layout{
+    gap: 10px;
+    margin: 30px;
+    background-color: red;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}

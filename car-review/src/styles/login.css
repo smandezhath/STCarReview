@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("C:\Users\MUHAMMED SALIH KE\Desktop\ZeroPXL\d4\STCarReview\car-review\src\assets\desk1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.login-form {
+    position: absolute;
+    /* width: 480px; */
+    /* height: 360px; */
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 25%;
+    border-radius: 5px;
+    background: rgba(25, 8, 8, 0.352);
+    box-shadow: 0 8px 32px 0 rgba(196, 164, 164, 0.313);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+
+
+}
+*:focus {
+    outline: none;
+}
+
+input{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    margin: 10px;
+    /* width: 80%; */
+
+    width: 300px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+    color: white;
+    
+}
+h2 {
+    
+	text-transform: uppercase;
+	font-family: "Arial Black";
+	font-size: 45px;
+    text-align: center;
+	background: rgb(20, 110, 214)
+    		center;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px rgb(217, 222, 248);
+}
+.foot-note{
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: lighter;
+}
+button{
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #0078d7;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: medium;
+}
+
